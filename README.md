@@ -28,27 +28,36 @@ Restaurant API — это RESTful API для управления брониро
 ### 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/<ваш-репозиторий>/restaurant_api.git
+git clone https://github.com/Aziret-Khaitkulov/restaurant_api.git/restaurant_api.git
 cd restaurant_api
 ```
 
-### 2. Запуск с использованием Docker. 
+### 2. Запуск с использованием Docker.
+
 ```bash
 docker-compose up --build
 ```
+
 Приложение будет доступно по адресу: http://localhost:8000
 
 ### 3. Запуск без Docker
+
 Если вы хотите запустить приложение локально, выполните:
+
 ```bash
 uvicorn app.main:app --host 0.0.0.0 --port 8000
 ```
+
 Приложение будет доступно по адресу: http://localhost:8000
 
 ### 4. Тестирование
+
 Для запуска тестов выполните:
+
 ```bash
 pytest
 ```
+
 ## Лицензия
+
 Этот проект распространяется под лицензией MIT. Подробнее см. в файле [LICENSE](LICENSE).
